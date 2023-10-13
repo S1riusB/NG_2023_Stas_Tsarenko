@@ -1,14 +1,14 @@
-a = float(input("Please enter your digit: "))
-x = int(input("1.Celsius to fahrenheit  2.Fahrenheit to celsius"))
+temp = float(input("Please enter your digit: "))
+choice = int(input("1.Celsius to fahrenheit  2.Fahrenheit to celsius"))
 sum = float
 
 
-if (x == 1):
+if (choice == 1):
 
- sum = float(a * 9/5) + 32
- print(a," Celsius is:",sum, " Fahrenheit")
-elif (x == 2):
- sum = float(a - 32) * 5/9
- print(a," Fahrenheit is:",sum, " Celsius")
+ sum = float(temp * 9/5) + 32
+ print(temp," Celsius is:",sum, " Fahrenheit")
+elif (choice == 2):
+ sum = float(temp - 32) * 5/9
+ print(temp," Fahrenheit is:",sum, " Celsius")
 else:
  print("Error!")

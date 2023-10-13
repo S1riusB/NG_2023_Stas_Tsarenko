@@ -1,4 +1,4 @@
 print("Please enter 2 digits: ")
-a = int(input("First digit ")) 
-b = int(input("First digit "))
-print("Summ of digits :",a + b)
+first = int(input("First digit ")) 
+second = int(input("Second digit "))
+print("Summ of digits :",first + second)
