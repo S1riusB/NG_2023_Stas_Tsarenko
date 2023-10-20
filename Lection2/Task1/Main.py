@@ -1,0 +1,1 @@
+print ("Unique elements: " + str(set(input("Enter your list: ").split())))
