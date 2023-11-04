@@ -3,6 +3,7 @@ def is_vowel(char):
     return char in vowels
 
 something = input("Enter something: ")
-vowels = [char for char in something if is_vowel(char)]
+vowels_set = set(char for char in something if is_vowel(char))
+vowels = sorted(list(vowels_set))
 
-print("Vowels in a string:", " ".join(vowels))
+print("Unique vowels in a string:", " ".join(vowels))
